@@ -117,7 +117,24 @@
     font-size: 1.25rem;
     font-weight: 600;
 }
-
+/* online game section */
+.game-container{
+    display: grid;
+    grid-template-columns: repeat( 4 , 342px);
+    column-gap: 24px;
+    max-width: 1440px;
+    margin: 48px auto 0;
+    min-height: 484px;
+}
+.games img{
+    width: 100%;
+}
+.games p{
+    margin-top: 24px;
+    color: #534C64;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
 
 
 
