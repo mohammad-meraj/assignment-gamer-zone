@@ -151,6 +151,11 @@
 .games img{
     width: 100%;
 }
+.games img:hover{
+    opacity: 50%;
+    border: 4px solid #FF42A5 ;
+    border-radius: 20px;
+}
 .games p{
     margin-top: 24px;
     color: #534C64;
