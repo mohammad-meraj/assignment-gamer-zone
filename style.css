@@ -27,7 +27,9 @@
     -webkit-text-fill-color: transparent;
 }
 
-
+.nav-icon{
+    color: #F948B2;
+}
 .nav-yt{
     color: red;
 }
