@@ -28,7 +28,9 @@
 }
 
 
-
+.nav-yt{
+    color: red;
+}
 
 .nav-container{
     min-height: 130px;
@@ -264,13 +266,13 @@
     margin: 36px 0px;
     gap: 50px;
 }
-.fa-brands{
+.icon-color{
     font-size: 2.5rem;
 }
 .fa-info{
     font-size: 2.1rem;
 }
-.fa-brands:hover{
+.icon-color:hover{
     color: #FF42A5;
 }
 .fa-info:hover{
@@ -428,6 +430,33 @@
         height: 30px;
         border-radius: 50px;
     }
+    /* footer */
+    .footer-container{
+        width: 100%;
+    }
+    .footer-div-1,.footer-div-2,.footer-div-3,.footer-div-4,.footer-div-5{
+        display: flex;
+        list-style: none;
+        margin: 36px 0px;
+    }
+    .footer-div-2{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .footer-div-4{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .icon-color{
+        font-size: 1.5rem;
+    }
+    .fa-info{
+        font-size: 1.0rem;
+    }
+    .footer-end{
+        color: rgba(255, 255, 255, 0.60);
+        font-size: 0.9rem;
+    }
 }
 
 
@@ -547,6 +576,9 @@
         font-size: 1.0rem;
     }
     /* game icon */
+    .game-icon-container{
+        width: 100%;
+    }
     .icons{
         width: 193px;
         height: 50px;
@@ -565,5 +597,12 @@
         width: 40px;
         height: 40px;
         border-radius: 50px;
+    }
+    /* footer */
+    .footer-container{
+        width: 100%;
+    }
+    .footer-div-1{
+        padding-right: 300px;
     }
 }
