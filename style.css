@@ -247,6 +247,39 @@
     height: 60px;
     border-radius: 50px;
 }
+/* footer */
+.footer-container{
+    min-height: 636px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background: #0B0223;
+    color: white;
+}
+.footer-div-1,.footer-div-2,.footer-div-3,.footer-div-4,.footer-div-5{
+    display: flex;
+    list-style: none;
+    margin: 36px 0px;
+    gap: 50px;
+}
+.fa-brands{
+    font-size: 2.5rem;
+}
+.fa-info{
+    font-size: 2.1rem;
+}
+.fa-brands:hover{
+    color: #FF42A5;
+}
+.fa-info:hover{
+    color: #FF42A5;
+}
+.footer-end{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 0.9rem;
+}
 
 
 
